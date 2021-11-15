@@ -4,8 +4,8 @@
 block_cipher = None
 
 
-a = Analysis(['morser.pyw'],
-             pathex=['C:\\Users\\Ayan Saha\\Desktop'],
+a = Analysis(['morser_nc.pyw'],
+             pathex=['C:\\Users\\Ayan Saha\\Documents\\GitHub\\MORSER\\standalone exe'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -22,7 +22,7 @@ exe = EXE(pyz,
           a.scripts,
           [],
           exclude_binaries=True,
-          name='morser',
+          name='morser_nc',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
@@ -35,4 +35,4 @@ coll = COLLECT(exe,
                strip=False,
                upx=True,
                upx_exclude=[],
-               name='morser')
+               name='morser_nc')

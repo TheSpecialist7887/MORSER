@@ -1,4 +1,5 @@
-('C:\\Users\\Ayan Saha\\Desktop\\build\\morser\\PKG-00.pkg',
+('C:\\Users\\Ayan Saha\\Documents\\GitHub\\MORSER\\standalone '
+ 'exe\\build\\morser_nc\\PKG-00.pkg',
  {'BINARY': 1,
   'DATA': 1,
   'EXECUTABLE': 1,
@@ -7,7 +8,8 @@
   'PYSOURCE': 1,
   'PYZ': 0},
  [('PYZ-00.pyz',
-   'C:\\Users\\Ayan Saha\\Desktop\\build\\morser\\PYZ-00.pyz',
+   'C:\\Users\\Ayan Saha\\Documents\\GitHub\\MORSER\\standalone '
+   'exe\\build\\morser_nc\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
    'c:\\users\\ayan '
@@ -37,9 +39,13 @@
    'C:\\Users\\Ayan '
    'Saha\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
    'PYSOURCE'),
-  ('morser', 'C:\\Users\\Ayan Saha\\Desktop\\morser.pyw', 'PYSOURCE'),
-  ('morser.exe.manifest',
-   'C:\\Users\\Ayan Saha\\Desktop\\build\\morser\\morser.exe.manifest',
+  ('morser_nc',
+   'C:\\Users\\Ayan Saha\\Documents\\GitHub\\MORSER\\standalone '
+   'exe\\morser_nc.pyw',
+   'PYSOURCE'),
+  ('morser_nc.exe.manifest',
+   'C:\\Users\\Ayan Saha\\Documents\\GitHub\\MORSER\\standalone '
+   'exe\\build\\morser_nc\\morser_nc.exe.manifest',
    'BINARY')],
  True,
  False,

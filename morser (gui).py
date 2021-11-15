@@ -71,6 +71,7 @@ def encryptor():
         Label(win,text="Output copied to clipboard!!").grid(row=6,column=1)
     except KeyError:
         showerror("Error", message="Only Alphabets (A-Z) and Numbers (0-9) allowed")
+        msg.focus()
 
 
 def decryptor():
@@ -96,8 +97,10 @@ def decryptor():
                     normal = normal + key_list[val_list.index(morse)]
                     morse = ""
         show_output(normal)
+        msg.focus()
     except ValueError:
-        showerror("Error", message="Only Dots [.] and Dashes [-]")
+        showerror("Error", message="Only Dots [.] and Dashes [-] allowed")
+        msg.focus()
     
 
 def show_output(result):
@@ -139,7 +142,7 @@ d.grid(row=4,column=1,padx=5)
 
 Label(win,text=" ").grid(row=6,column=1)
 
-output=tk.Text(win, width = 50, height =5,background = "white",bd=3,font=box) #OUTPUT BOX
+output=tk.Text(win, width = 50, height =5,background = "white",bd=3,font=box,state='disabled') #OUTPUT BOX
 output.grid(row=7,column=0,columnspan=3,padx=10,pady=10)
 
 Label(win,text=" ").grid(row=8,column=0)

@@ -1,1 +1,0 @@
-dist\morser\morser.exe
